@@ -3,7 +3,7 @@
 
 terraform {
   backend "s3" {
-    bucket         = "terraform-state-spring-boot-app"
+    bucket         = "terraform-state-spring-boot-app-kapami"
     key            = "terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
