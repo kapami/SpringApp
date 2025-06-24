@@ -44,7 +44,7 @@ jobs:
 
       - name: Delete S3 bucket (Terraform State)
         run: |
-          bucket=terraform-state-spring-boot-app
+          bucket=terraform-state-spring-boot-app-kapami
           token=""
           
           while : ; do
